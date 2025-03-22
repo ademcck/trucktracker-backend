@@ -12,23 +12,17 @@ ALLOWED_HOSTS = [
 ]
 
 # Database - PostgreSQL for production
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': os.environ.get('tracktruck'),
-#         'USER': os.environ.get('DB_USER'),
-#         'PASSWORD': os.environ.get('DB_PASSWORD'),
-#         'HOST': os.environ.get('DB_HOST', 'localhost'),
-#         'PORT': os.environ.get('DB_PORT', '5432'),
-#     }
-# }
-# Database - SQLite. CHANGE TO POSTGRESQL
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.environ.get('truck'),
+        'USER': os.environ.get('trucker'),
+        'PASSWORD': os.environ.get('trucker_123'),
+        'HOST': os.environ.get('0.0.0.0'),
+        'PORT': os.environ.get(''),
     }
 }
+
 # CELERY for production
 CELERY_BROKER_URL = os.environ.get('REDIS_URL', 'redis://redis:6379')
 CELERY_RESULT_BACKEND = os.environ.get('REDIS_URL', 'redis://redis:6379')
