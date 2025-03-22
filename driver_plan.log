@@ -1,0 +1,865 @@
+2025-03-22 18:33:10,633 - INFO - C:\Users\Acer\Desktop\trucktracker\drf\core\tasks.py changed, reloading.
+2025-03-22 18:33:29,464 - INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2025-03-22 18:33:29,465 - INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2025-03-22 18:33:29,466 - INFO - Listening on TCP address 127.0.0.1:8000
+2025-03-22 18:34:37,542 - INFO - C:\Users\Acer\Desktop\trucktracker\drf\core\tasks.py changed, reloading.
+2025-03-22 18:34:39,290 - INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2025-03-22 18:34:39,290 - INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2025-03-22 18:34:39,299 - INFO - Listening on TCP address 127.0.0.1:8000
+2025-03-22 18:34:58,575 - INFO - [mHTTP GET /api/trip/search/?q=ezine&task_id=null 200 [0.12, 127.0.0.1:49181][0m
+2025-03-22 18:34:58,902 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/08c7fa08-35c6-477d-b21e-7090f0f6a445/ [127.0.0.1:49196]
+2025-03-22 18:34:58,913 - INFO - WebSocket CONNECT /ws/api/check/proccess/08c7fa08-35c6-477d-b21e-7090f0f6a445/ [127.0.0.1:49196]
+2025-03-22 18:35:01,761 - INFO - [mHTTP GET /api/trip/search/?q=e&task_id=null 200 [0.04, 127.0.0.1:49181][0m
+2025-03-22 18:35:01,773 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/08c7fa08-35c6-477d-b21e-7090f0f6a445/ [127.0.0.1:49196]
+2025-03-22 18:35:02,080 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/b330804a-881d-4dc3-b2a1-45a3f196443c/ [127.0.0.1:49280]
+2025-03-22 18:35:02,083 - INFO - WebSocket CONNECT /ws/api/check/proccess/b330804a-881d-4dc3-b2a1-45a3f196443c/ [127.0.0.1:49280]
+2025-03-22 18:35:05,278 - INFO - [mHTTP GET /api/trip/search/?q=london&task_id=null 200 [0.02, 127.0.0.1:49181][0m
+2025-03-22 18:35:05,293 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/b330804a-881d-4dc3-b2a1-45a3f196443c/ [127.0.0.1:49280]
+2025-03-22 18:35:05,610 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/367d18b4-27f6-40a3-9adc-095e78976bc1/ [127.0.0.1:49372]
+2025-03-22 18:35:05,613 - INFO - WebSocket CONNECT /ws/api/check/proccess/367d18b4-27f6-40a3-9adc-095e78976bc1/ [127.0.0.1:49372]
+2025-03-22 18:35:06,935 - INFO - [mHTTP GET /api/trip/search/?q=london%20&task_id=null 200 [0.04, 127.0.0.1:49181][0m
+2025-03-22 18:35:06,951 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/367d18b4-27f6-40a3-9adc-095e78976bc1/ [127.0.0.1:49372]
+2025-03-22 18:35:07,254 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/479ec24d-8c62-42d7-8372-e283fcc4798b/ [127.0.0.1:49676]
+2025-03-22 18:35:07,257 - INFO - WebSocket CONNECT /ws/api/check/proccess/479ec24d-8c62-42d7-8372-e283fcc4798b/ [127.0.0.1:49676]
+2025-03-22 18:35:13,248 - INFO - [mHTTP GET /api/trip/search/?q=vl&task_id=null 200 [0.02, 127.0.0.1:49181][0m
+2025-03-22 18:35:13,262 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/479ec24d-8c62-42d7-8372-e283fcc4798b/ [127.0.0.1:49676]
+2025-03-22 18:35:13,565 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/9cbd970b-7a67-4d1e-8acb-1941ffc25dbc/ [127.0.0.1:50493]
+2025-03-22 18:35:13,567 - INFO - WebSocket CONNECT /ws/api/check/proccess/9cbd970b-7a67-4d1e-8acb-1941ffc25dbc/ [127.0.0.1:50493]
+2025-03-22 18:35:38,632 - INFO - [mHTTP GET /api/trip/search/?q=Vladivostok&task_id=null 200 [0.02, 127.0.0.1:49181][0m
+2025-03-22 18:35:38,654 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/9cbd970b-7a67-4d1e-8acb-1941ffc25dbc/ [127.0.0.1:50493]
+2025-03-22 18:35:38,965 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/20241bfa-2b70-4863-bcbf-0b4f35ef96bf/ [127.0.0.1:51105]
+2025-03-22 18:35:38,968 - INFO - WebSocket CONNECT /ws/api/check/proccess/20241bfa-2b70-4863-bcbf-0b4f35ef96bf/ [127.0.0.1:51105]
+2025-03-22 18:35:43,687 - INFO - [mHTTP POST /api/trip/create/ 200 [0.03, 127.0.0.1:49181][0m
+2025-03-22 18:35:43,730 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/20241bfa-2b70-4863-bcbf-0b4f35ef96bf/ [127.0.0.1:51105]
+2025-03-22 18:35:44,046 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/cdcbbb12-7d3e-4bbf-9379-4a0b6ba0be21/ [127.0.0.1:51233]
+2025-03-22 18:35:44,048 - INFO - WebSocket CONNECT /ws/api/check/proccess/cdcbbb12-7d3e-4bbf-9379-4a0b6ba0be21/ [127.0.0.1:51233]
+2025-03-22 18:42:57,379 - INFO - C:\Users\Acer\Desktop\trucktracker\drf\core\utils\getroute2.py changed, reloading.
+2025-03-22 18:42:59,498 - INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2025-03-22 18:42:59,499 - INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2025-03-22 18:42:59,500 - INFO - Listening on TCP address 127.0.0.1:8000
+2025-03-22 18:43:06,022 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 62219]
+2025-03-22 18:43:06,044 - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-03-22 18:43:06,048 - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-03-22 18:43:06,048 - DEBUG - 
+def generate_route_task(task_id, start_lat, start_lon, end_lat, end_lon, ccu):
+    return 1
+
+2025-03-22 18:43:06,049 - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-03-22 18:43:06,049 - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-03-22 18:43:06,049 - DEBUG - 
+def searchlocation(task_id, location):
+    return 1
+
+2025-03-22 18:43:06,050 - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-03-22 18:43:06,050 - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-03-22 18:43:06,051 - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-03-22 18:43:06,051 - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-03-22 18:43:06,052 - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-03-22 18:43:06,182 - DEBUG - HTTP 200 response started for ['127.0.0.1', 62219]
+2025-03-22 18:43:06,182 - DEBUG - HTTP close for ['127.0.0.1', 62219]
+2025-03-22 18:43:06,182 - DEBUG - HTTP response complete for ['127.0.0.1', 62219]
+2025-03-22 18:43:06,183 - INFO - [mHTTP GET /api/trip/search/?q=l&task_id=null 200 [0.16, 127.0.0.1:62219][0m
+2025-03-22 18:43:06,501 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/0aefb9aa-c08a-49b8-84c4-7e2f22b4d7bc/ [127.0.0.1:62234]
+2025-03-22 18:43:06,502 - DEBUG - Upgraded connection ['127.0.0.1', 62234] to WebSocket
+2025-03-22 18:43:06,519 - DEBUG - WebSocket ['127.0.0.1', 62234] open and established
+2025-03-22 18:43:06,519 - INFO - WebSocket CONNECT /ws/api/check/proccess/0aefb9aa-c08a-49b8-84c4-7e2f22b4d7bc/ [127.0.0.1:62234]
+2025-03-22 18:43:06,520 - DEBUG - WebSocket ['127.0.0.1', 62234] accepted by application
+2025-03-22 18:43:07,145 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 62219]
+2025-03-22 18:43:07,164 - DEBUG - HTTP 200 response started for ['127.0.0.1', 62219]
+2025-03-22 18:43:07,165 - DEBUG - HTTP close for ['127.0.0.1', 62219]
+2025-03-22 18:43:07,165 - DEBUG - HTTP response complete for ['127.0.0.1', 62219]
+2025-03-22 18:43:07,166 - INFO - [mHTTP GET /api/trip/search/?q=london&task_id=null 200 [0.02, 127.0.0.1:62219][0m
+2025-03-22 18:43:07,179 - DEBUG - WebSocket closed for ['127.0.0.1', 62234]
+2025-03-22 18:43:07,179 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/0aefb9aa-c08a-49b8-84c4-7e2f22b4d7bc/ [127.0.0.1:62234]
+2025-03-22 18:43:07,497 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/6c401130-0922-454c-9ccb-3239cb8e1b34/ [127.0.0.1:62262]
+2025-03-22 18:43:07,497 - DEBUG - Upgraded connection ['127.0.0.1', 62262] to WebSocket
+2025-03-22 18:43:07,501 - DEBUG - WebSocket ['127.0.0.1', 62262] open and established
+2025-03-22 18:43:07,502 - INFO - WebSocket CONNECT /ws/api/check/proccess/6c401130-0922-454c-9ccb-3239cb8e1b34/ [127.0.0.1:62262]
+2025-03-22 18:43:07,502 - DEBUG - WebSocket ['127.0.0.1', 62262] accepted by application
+2025-03-22 18:44:00,486 - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-03-22 18:44:00,487 - DEBUG - 
+def generate_route_task(task_id, start_lat, start_lon, end_lat, end_lon, ccu):
+    return 1
+
+2025-03-22 18:44:00,487 - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-03-22 18:44:00,488 - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-03-22 18:44:00,489 - DEBUG - 
+def searchlocation(task_id, location):
+    return 1
+
+2025-03-22 18:44:00,489 - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-03-22 18:44:00,490 - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-03-22 18:44:00,490 - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-03-22 18:44:00,490 - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-03-22 18:44:00,491 - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-03-22 18:44:00,492 - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-03-22 18:44:01,000 - INFO - C:\Users\Acer\Desktop\trucktracker\drf\core\utils\getroute2.py changed, reloading.
+2025-03-22 18:44:02,940 - INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2025-03-22 18:44:02,941 - INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2025-03-22 18:44:02,942 - INFO - Listening on TCP address 127.0.0.1:8000
+2025-03-22 18:44:06,787 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 63649]
+2025-03-22 18:44:06,803 - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-03-22 18:44:06,805 - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-03-22 18:44:06,805 - DEBUG - 
+def generate_route_task(task_id, start_lat, start_lon, end_lat, end_lon, ccu):
+    return 1
+
+2025-03-22 18:44:06,806 - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-03-22 18:44:06,806 - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-03-22 18:44:06,806 - DEBUG - 
+def searchlocation(task_id, location):
+    return 1
+
+2025-03-22 18:44:06,807 - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-03-22 18:44:06,808 - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-03-22 18:44:06,808 - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-03-22 18:44:06,809 - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-03-22 18:44:06,809 - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-03-22 18:44:06,921 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:44:06,922 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:44:06,922 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:44:06,922 - INFO - [mHTTP GET /api/trip/search/?q=londo&task_id=null 200 [0.14, 127.0.0.1:63649][0m
+2025-03-22 18:44:07,244 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/1245b6b2-11a1-4ea3-a3e3-2fc2c9738fbf/ [127.0.0.1:63665]
+2025-03-22 18:44:07,244 - DEBUG - Upgraded connection ['127.0.0.1', 63665] to WebSocket
+2025-03-22 18:44:07,255 - DEBUG - WebSocket ['127.0.0.1', 63665] open and established
+2025-03-22 18:44:07,255 - INFO - WebSocket CONNECT /ws/api/check/proccess/1245b6b2-11a1-4ea3-a3e3-2fc2c9738fbf/ [127.0.0.1:63665]
+2025-03-22 18:44:07,255 - DEBUG - WebSocket ['127.0.0.1', 63665] accepted by application
+2025-03-22 18:44:07,283 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 63665]
+2025-03-22 18:44:07,538 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 63649]
+2025-03-22 18:44:07,567 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:44:07,568 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:44:07,568 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:44:07,568 - INFO - [mHTTP GET /api/trip/search/?q=london&task_id=null 200 [0.03, 127.0.0.1:63649][0m
+2025-03-22 18:44:07,584 - DEBUG - WebSocket closed for ['127.0.0.1', 63665]
+2025-03-22 18:44:07,585 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/1245b6b2-11a1-4ea3-a3e3-2fc2c9738fbf/ [127.0.0.1:63665]
+2025-03-22 18:44:07,887 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/20adbbd1-1271-47b1-ada7-226bc97c1210/ [127.0.0.1:63689]
+2025-03-22 18:44:07,888 - DEBUG - Upgraded connection ['127.0.0.1', 63689] to WebSocket
+2025-03-22 18:44:07,891 - DEBUG - WebSocket ['127.0.0.1', 63689] open and established
+2025-03-22 18:44:07,891 - INFO - WebSocket CONNECT /ws/api/check/proccess/20adbbd1-1271-47b1-ada7-226bc97c1210/ [127.0.0.1:63689]
+2025-03-22 18:44:07,892 - DEBUG - WebSocket ['127.0.0.1', 63689] accepted by application
+2025-03-22 18:44:08,286 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 63689]
+2025-03-22 18:44:12,490 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 63649]
+2025-03-22 18:44:12,524 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:44:12,524 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:44:12,524 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:44:12,525 - INFO - [mHTTP GET /api/trip/search/?q=v&task_id=null 200 [0.03, 127.0.0.1:63649][0m
+2025-03-22 18:44:12,540 - DEBUG - WebSocket closed for ['127.0.0.1', 63689]
+2025-03-22 18:44:12,540 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/20adbbd1-1271-47b1-ada7-226bc97c1210/ [127.0.0.1:63689]
+2025-03-22 18:44:12,842 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/42394ee5-944a-4934-9738-b58b941811bb/ [127.0.0.1:63812]
+2025-03-22 18:44:12,843 - DEBUG - Upgraded connection ['127.0.0.1', 63812] to WebSocket
+2025-03-22 18:44:12,847 - DEBUG - WebSocket ['127.0.0.1', 63812] open and established
+2025-03-22 18:44:12,848 - INFO - WebSocket CONNECT /ws/api/check/proccess/42394ee5-944a-4934-9738-b58b941811bb/ [127.0.0.1:63812]
+2025-03-22 18:44:12,848 - DEBUG - WebSocket ['127.0.0.1', 63812] accepted by application
+2025-03-22 18:44:13,187 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 63812]
+2025-03-22 18:44:13,386 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 63649]
+2025-03-22 18:44:13,405 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:44:13,405 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:44:13,405 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:44:13,406 - INFO - [mHTTP GET /api/trip/search/?q=vl&task_id=null 200 [0.02, 127.0.0.1:63649][0m
+2025-03-22 18:44:13,419 - DEBUG - WebSocket closed for ['127.0.0.1', 63812]
+2025-03-22 18:44:13,420 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/42394ee5-944a-4934-9738-b58b941811bb/ [127.0.0.1:63812]
+2025-03-22 18:44:13,730 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/bb600183-b645-498e-a505-3d94bed6a05c/ [127.0.0.1:63840]
+2025-03-22 18:44:13,731 - DEBUG - Upgraded connection ['127.0.0.1', 63840] to WebSocket
+2025-03-22 18:44:13,734 - DEBUG - WebSocket ['127.0.0.1', 63840] open and established
+2025-03-22 18:44:13,734 - INFO - WebSocket CONNECT /ws/api/check/proccess/bb600183-b645-498e-a505-3d94bed6a05c/ [127.0.0.1:63840]
+2025-03-22 18:44:13,735 - DEBUG - WebSocket ['127.0.0.1', 63840] accepted by application
+2025-03-22 18:44:14,190 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 63840]
+2025-03-22 18:44:30,343 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 63649]
+2025-03-22 18:44:30,363 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:44:30,363 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:44:30,364 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:44:30,364 - INFO - [mHTTP GET /api/trip/search/?q=Vladivostok&task_id=null 200 [0.02, 127.0.0.1:63649][0m
+2025-03-22 18:44:30,384 - DEBUG - WebSocket closed for ['127.0.0.1', 63840]
+2025-03-22 18:44:30,384 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/bb600183-b645-498e-a505-3d94bed6a05c/ [127.0.0.1:63840]
+2025-03-22 18:44:30,689 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/7f8171db-01e3-48f1-b3ea-9a03519cfe75/ [127.0.0.1:64265]
+2025-03-22 18:44:30,690 - DEBUG - Upgraded connection ['127.0.0.1', 64265] to WebSocket
+2025-03-22 18:44:30,693 - DEBUG - WebSocket ['127.0.0.1', 64265] open and established
+2025-03-22 18:44:30,693 - INFO - WebSocket CONNECT /ws/api/check/proccess/7f8171db-01e3-48f1-b3ea-9a03519cfe75/ [127.0.0.1:64265]
+2025-03-22 18:44:30,694 - DEBUG - WebSocket ['127.0.0.1', 64265] accepted by application
+2025-03-22 18:44:36,955 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 63649]
+2025-03-22 18:44:36,975 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:44:36,975 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:44:36,976 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:44:36,976 - INFO - [mHTTP GET /api/trip/search/?q=Vladivostok%20&task_id=null 200 [0.02, 127.0.0.1:63649][0m
+2025-03-22 18:44:36,993 - DEBUG - WebSocket closed for ['127.0.0.1', 64265]
+2025-03-22 18:44:36,993 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/7f8171db-01e3-48f1-b3ea-9a03519cfe75/ [127.0.0.1:64265]
+2025-03-22 18:44:37,308 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/eabd874a-c35d-4fae-928b-1bf63c58c103/ [127.0.0.1:64420]
+2025-03-22 18:44:37,308 - DEBUG - Upgraded connection ['127.0.0.1', 64420] to WebSocket
+2025-03-22 18:44:37,320 - DEBUG - WebSocket ['127.0.0.1', 64420] open and established
+2025-03-22 18:44:37,321 - INFO - WebSocket CONNECT /ws/api/check/proccess/eabd874a-c35d-4fae-928b-1bf63c58c103/ [127.0.0.1:64420]
+2025-03-22 18:44:37,321 - DEBUG - WebSocket ['127.0.0.1', 64420] accepted by application
+2025-03-22 18:44:54,672 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 63649]
+2025-03-22 18:44:54,712 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:44:54,712 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:44:54,713 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:44:54,713 - INFO - [mHTTP GET /api/trip/search/?q=Vladivostok&task_id=null 200 [0.04, 127.0.0.1:63649][0m
+2025-03-22 18:44:54,735 - DEBUG - WebSocket closed for ['127.0.0.1', 64420]
+2025-03-22 18:44:54,735 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/eabd874a-c35d-4fae-928b-1bf63c58c103/ [127.0.0.1:64420]
+2025-03-22 18:44:55,045 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/a8bba12a-6d80-4370-932c-4affadbaff38/ [127.0.0.1:64830]
+2025-03-22 18:44:55,046 - DEBUG - Upgraded connection ['127.0.0.1', 64830] to WebSocket
+2025-03-22 18:44:55,050 - DEBUG - WebSocket ['127.0.0.1', 64830] open and established
+2025-03-22 18:44:55,051 - INFO - WebSocket CONNECT /ws/api/check/proccess/a8bba12a-6d80-4370-932c-4affadbaff38/ [127.0.0.1:64830]
+2025-03-22 18:44:55,051 - DEBUG - WebSocket ['127.0.0.1', 64830] accepted by application
+2025-03-22 18:44:55,080 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 64830]
+2025-03-22 18:45:05,137 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 63649]
+2025-03-22 18:45:05,175 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:45:05,176 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:45:05,176 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:45:05,176 - INFO - [mHTTP GET /api/trip/search/?q=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D0%BA,%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D0%BA%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%BA%D1%80%D1%83%D0%B3,%20%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D1%80%D0%B0%D0%B9,%20%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9%20%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BE%D0%BA%D1%80%D1%83%D0%B3,%20690000,%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F&task_id=null 200 [0.04, 127.0.0.1:63649][0m
+2025-03-22 18:45:05,189 - DEBUG - WebSocket closed for ['127.0.0.1', 64830]
+2025-03-22 18:45:05,189 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/a8bba12a-6d80-4370-932c-4affadbaff38/ [127.0.0.1:64830]
+2025-03-22 18:45:05,507 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/5849383c-e670-41f6-800a-f2b36541a2f1/ [127.0.0.1:65080]
+2025-03-22 18:45:05,508 - DEBUG - Upgraded connection ['127.0.0.1', 65080] to WebSocket
+2025-03-22 18:45:05,512 - DEBUG - WebSocket ['127.0.0.1', 65080] open and established
+2025-03-22 18:45:05,513 - INFO - WebSocket CONNECT /ws/api/check/proccess/5849383c-e670-41f6-800a-f2b36541a2f1/ [127.0.0.1:65080]
+2025-03-22 18:45:05,513 - DEBUG - WebSocket ['127.0.0.1', 65080] accepted by application
+2025-03-22 18:45:05,598 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 65080]
+2025-03-22 18:45:11,264 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 63649]
+2025-03-22 18:45:11,304 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:45:11,304 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:45:11,305 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:45:11,305 - INFO - [mHTTP GET /api/trip/search/?q=London,%20Greater%20London,%20England,%20United%20Kingdom&task_id=null 200 [0.04, 127.0.0.1:63649][0m
+2025-03-22 18:45:11,320 - DEBUG - WebSocket closed for ['127.0.0.1', 65080]
+2025-03-22 18:45:11,320 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/5849383c-e670-41f6-800a-f2b36541a2f1/ [127.0.0.1:65080]
+2025-03-22 18:45:11,635 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/f44db00b-a8c0-4de2-b926-c4d38684aa69/ [127.0.0.1:65232]
+2025-03-22 18:45:11,636 - DEBUG - Upgraded connection ['127.0.0.1', 65232] to WebSocket
+2025-03-22 18:45:11,640 - DEBUG - WebSocket ['127.0.0.1', 65232] open and established
+2025-03-22 18:45:11,641 - INFO - WebSocket CONNECT /ws/api/check/proccess/f44db00b-a8c0-4de2-b926-c4d38684aa69/ [127.0.0.1:65232]
+2025-03-22 18:45:11,641 - DEBUG - WebSocket ['127.0.0.1', 65232] accepted by application
+2025-03-22 18:45:19,756 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 63649]
+2025-03-22 18:45:19,799 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:45:19,800 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:45:19,800 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:45:19,801 - INFO - [mHTTP GET /api/trip/search/?q=London,%20Greater%20London,%20England,%20United%20Kingdom%20&task_id=null 200 [0.04, 127.0.0.1:63649][0m
+2025-03-22 18:45:19,815 - DEBUG - WebSocket closed for ['127.0.0.1', 65232]
+2025-03-22 18:45:19,815 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/f44db00b-a8c0-4de2-b926-c4d38684aa69/ [127.0.0.1:65232]
+2025-03-22 18:45:20,133 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/cef362bd-7eef-49ee-b361-60180994094e/ [127.0.0.1:65432]
+2025-03-22 18:45:20,134 - DEBUG - Upgraded connection ['127.0.0.1', 65432] to WebSocket
+2025-03-22 18:45:20,137 - DEBUG - WebSocket ['127.0.0.1', 65432] open and established
+2025-03-22 18:45:20,137 - INFO - WebSocket CONNECT /ws/api/check/proccess/cef362bd-7eef-49ee-b361-60180994094e/ [127.0.0.1:65432]
+2025-03-22 18:45:20,137 - DEBUG - WebSocket ['127.0.0.1', 65432] accepted by application
+2025-03-22 18:45:21,857 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 63649]
+2025-03-22 18:45:21,891 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:45:21,892 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:45:21,892 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:45:21,893 - INFO - [mHTTP GET /api/trip/search/?q=London,%20Greater%20London,%20England,%20United%20Kingdom&task_id=null 200 [0.04, 127.0.0.1:63649][0m
+2025-03-22 18:45:21,908 - DEBUG - WebSocket closed for ['127.0.0.1', 65432]
+2025-03-22 18:45:21,908 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/cef362bd-7eef-49ee-b361-60180994094e/ [127.0.0.1:65432]
+2025-03-22 18:45:22,217 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/ad09f834-dcf5-4845-86d8-6dd72b05b9b8/ [127.0.0.1:65485]
+2025-03-22 18:45:22,218 - DEBUG - Upgraded connection ['127.0.0.1', 65485] to WebSocket
+2025-03-22 18:45:22,221 - DEBUG - WebSocket ['127.0.0.1', 65485] open and established
+2025-03-22 18:45:22,222 - INFO - WebSocket CONNECT /ws/api/check/proccess/ad09f834-dcf5-4845-86d8-6dd72b05b9b8/ [127.0.0.1:65485]
+2025-03-22 18:45:22,223 - DEBUG - WebSocket ['127.0.0.1', 65485] accepted by application
+2025-03-22 18:45:22,225 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 65485]
+2025-03-22 18:45:26,172 - DEBUG - HTTP b'POST' request for ['127.0.0.1', 63649]
+2025-03-22 18:45:26,224 - DEBUG - HTTP 200 response started for ['127.0.0.1', 63649]
+2025-03-22 18:45:26,224 - DEBUG - HTTP close for ['127.0.0.1', 63649]
+2025-03-22 18:45:26,225 - DEBUG - HTTP response complete for ['127.0.0.1', 63649]
+2025-03-22 18:45:26,226 - INFO - [mHTTP POST /api/trip/create/ 200 [0.05, 127.0.0.1:63649][0m
+2025-03-22 18:45:26,257 - DEBUG - WebSocket closed for ['127.0.0.1', 65485]
+2025-03-22 18:45:26,257 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/ad09f834-dcf5-4845-86d8-6dd72b05b9b8/ [127.0.0.1:65485]
+2025-03-22 18:45:26,569 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/78a69c1e-b56e-4eb4-8d04-6ed7ca691b53/ [127.0.0.1:49216]
+2025-03-22 18:45:26,570 - DEBUG - Upgraded connection ['127.0.0.1', 49216] to WebSocket
+2025-03-22 18:45:26,574 - DEBUG - WebSocket ['127.0.0.1', 49216] open and established
+2025-03-22 18:45:26,575 - INFO - WebSocket CONNECT /ws/api/check/proccess/78a69c1e-b56e-4eb4-8d04-6ed7ca691b53/ [127.0.0.1:49216]
+2025-03-22 18:45:26,575 - DEBUG - WebSocket ['127.0.0.1', 49216] accepted by application
+2025-03-22 18:45:28,859 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 49216]
+2025-03-22 18:45:28,908 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 49216]
+2025-03-22 18:48:09,183 - INFO - C:\Users\Acer\Desktop\trucktracker\drf\core\tasks.py changed, reloading.
+2025-03-22 18:48:10,990 - INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2025-03-22 18:48:10,990 - INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2025-03-22 18:48:10,991 - INFO - Listening on TCP address 127.0.0.1:8000
+2025-03-22 18:48:16,063 - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-03-22 18:48:16,063 - DEBUG - 
+def generate_route_task(task_id, start_lat, start_lon, end_lat, end_lon, ccu):
+    return 1
+
+2025-03-22 18:48:16,064 - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-03-22 18:48:16,065 - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-03-22 18:48:16,065 - DEBUG - 
+def searchlocation(task_id, location):
+    return 1
+
+2025-03-22 18:48:16,065 - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-03-22 18:48:16,066 - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-03-22 18:48:16,066 - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-03-22 18:48:16,067 - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-03-22 18:48:16,067 - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-03-22 18:48:16,067 - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-03-22 18:48:26,774 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 55274]
+2025-03-22 18:48:26,789 - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-03-22 18:48:26,791 - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-03-22 18:48:26,792 - DEBUG - 
+def generate_route_task(task_id, start_lat, start_lon, end_lat, end_lon, ccu):
+    return 1
+
+2025-03-22 18:48:26,793 - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-03-22 18:48:26,793 - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-03-22 18:48:26,794 - DEBUG - 
+def searchlocation(task_id, location):
+    return 1
+
+2025-03-22 18:48:26,794 - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-03-22 18:48:26,795 - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-03-22 18:48:26,795 - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-03-22 18:48:26,796 - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-03-22 18:48:26,797 - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-03-22 18:48:26,909 - DEBUG - HTTP 200 response started for ['127.0.0.1', 55274]
+2025-03-22 18:48:26,910 - DEBUG - HTTP close for ['127.0.0.1', 55274]
+2025-03-22 18:48:26,910 - DEBUG - HTTP response complete for ['127.0.0.1', 55274]
+2025-03-22 18:48:26,910 - INFO - [mHTTP GET /api/trip/search/?q=london&task_id=null 200 [0.14, 127.0.0.1:55274][0m
+2025-03-22 18:48:27,246 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/421d6e80-79dd-45e9-a9ac-26684135c413/ [127.0.0.1:55291]
+2025-03-22 18:48:27,247 - DEBUG - Upgraded connection ['127.0.0.1', 55291] to WebSocket
+2025-03-22 18:48:27,262 - DEBUG - WebSocket ['127.0.0.1', 55291] open and established
+2025-03-22 18:48:27,262 - INFO - WebSocket CONNECT /ws/api/check/proccess/421d6e80-79dd-45e9-a9ac-26684135c413/ [127.0.0.1:55291]
+2025-03-22 18:48:27,263 - DEBUG - WebSocket ['127.0.0.1', 55291] accepted by application
+2025-03-22 18:48:27,435 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 55291]
+2025-03-22 18:48:31,715 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 55274]
+2025-03-22 18:48:31,734 - DEBUG - HTTP 200 response started for ['127.0.0.1', 55274]
+2025-03-22 18:48:31,735 - DEBUG - HTTP close for ['127.0.0.1', 55274]
+2025-03-22 18:48:31,735 - DEBUG - HTTP response complete for ['127.0.0.1', 55274]
+2025-03-22 18:48:31,735 - INFO - [mHTTP GET /api/trip/search/?q=london&task_id=null 200 [0.02, 127.0.0.1:55274][0m
+2025-03-22 18:48:31,767 - DEBUG - WebSocket closed for ['127.0.0.1', 55291]
+2025-03-22 18:48:31,767 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/421d6e80-79dd-45e9-a9ac-26684135c413/ [127.0.0.1:55291]
+2025-03-22 18:48:32,081 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/f009a18e-fbbb-43b5-9817-c2d6cae39a5a/ [127.0.0.1:55414]
+2025-03-22 18:48:32,082 - DEBUG - Upgraded connection ['127.0.0.1', 55414] to WebSocket
+2025-03-22 18:48:32,085 - DEBUG - WebSocket ['127.0.0.1', 55414] open and established
+2025-03-22 18:48:32,085 - INFO - WebSocket CONNECT /ws/api/check/proccess/f009a18e-fbbb-43b5-9817-c2d6cae39a5a/ [127.0.0.1:55414]
+2025-03-22 18:48:32,085 - DEBUG - WebSocket ['127.0.0.1', 55414] accepted by application
+2025-03-22 18:48:32,248 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 55414]
+2025-03-22 18:48:41,688 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 55274]
+2025-03-22 18:48:41,728 - DEBUG - HTTP 200 response started for ['127.0.0.1', 55274]
+2025-03-22 18:48:41,728 - DEBUG - HTTP close for ['127.0.0.1', 55274]
+2025-03-22 18:48:41,729 - DEBUG - HTTP response complete for ['127.0.0.1', 55274]
+2025-03-22 18:48:41,729 - INFO - [mHTTP GET /api/trip/search/?q=vl&task_id=null 200 [0.04, 127.0.0.1:55274][0m
+2025-03-22 18:48:41,759 - DEBUG - WebSocket closed for ['127.0.0.1', 55414]
+2025-03-22 18:48:41,759 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/f009a18e-fbbb-43b5-9817-c2d6cae39a5a/ [127.0.0.1:55414]
+2025-03-22 18:48:42,062 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/b7d00d94-f2cd-4dc9-94e5-9047b51ac6bb/ [127.0.0.1:55652]
+2025-03-22 18:48:42,063 - DEBUG - Upgraded connection ['127.0.0.1', 55652] to WebSocket
+2025-03-22 18:48:42,065 - DEBUG - WebSocket ['127.0.0.1', 55652] open and established
+2025-03-22 18:48:42,066 - INFO - WebSocket CONNECT /ws/api/check/proccess/b7d00d94-f2cd-4dc9-94e5-9047b51ac6bb/ [127.0.0.1:55652]
+2025-03-22 18:48:42,066 - DEBUG - WebSocket ['127.0.0.1', 55652] accepted by application
+2025-03-22 18:48:42,249 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 55652]
+2025-03-22 18:48:50,181 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 55274]
+2025-03-22 18:48:50,217 - DEBUG - HTTP 200 response started for ['127.0.0.1', 55274]
+2025-03-22 18:48:50,217 - DEBUG - HTTP close for ['127.0.0.1', 55274]
+2025-03-22 18:48:50,217 - DEBUG - HTTP response complete for ['127.0.0.1', 55274]
+2025-03-22 18:48:50,218 - INFO - [mHTTP GET /api/trip/search/?q=Vladivostok&task_id=null 200 [0.04, 127.0.0.1:55274][0m
+2025-03-22 18:48:50,259 - DEBUG - WebSocket closed for ['127.0.0.1', 55652]
+2025-03-22 18:48:50,260 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/b7d00d94-f2cd-4dc9-94e5-9047b51ac6bb/ [127.0.0.1:55652]
+2025-03-22 18:48:50,567 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/58ae9160-2f05-4cb4-b4de-93fcc2959ff2/ [127.0.0.1:55865]
+2025-03-22 18:48:50,568 - DEBUG - Upgraded connection ['127.0.0.1', 55865] to WebSocket
+2025-03-22 18:48:50,571 - DEBUG - WebSocket ['127.0.0.1', 55865] open and established
+2025-03-22 18:48:50,571 - INFO - WebSocket CONNECT /ws/api/check/proccess/58ae9160-2f05-4cb4-b4de-93fcc2959ff2/ [127.0.0.1:55865]
+2025-03-22 18:48:50,572 - DEBUG - WebSocket ['127.0.0.1', 55865] accepted by application
+2025-03-22 18:48:50,608 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 55865]
+2025-03-22 18:48:54,497 - DEBUG - HTTP b'POST' request for ['127.0.0.1', 55274]
+2025-03-22 18:48:54,521 - DEBUG - HTTP 200 response started for ['127.0.0.1', 55274]
+2025-03-22 18:48:54,521 - DEBUG - HTTP close for ['127.0.0.1', 55274]
+2025-03-22 18:48:54,521 - DEBUG - HTTP response complete for ['127.0.0.1', 55274]
+2025-03-22 18:48:54,522 - INFO - [mHTTP POST /api/trip/create/ 200 [0.02, 127.0.0.1:55274][0m
+2025-03-22 18:48:54,555 - DEBUG - WebSocket closed for ['127.0.0.1', 55865]
+2025-03-22 18:48:54,556 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/58ae9160-2f05-4cb4-b4de-93fcc2959ff2/ [127.0.0.1:55865]
+2025-03-22 18:48:54,862 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/e8383324-ff06-46d1-9f78-068806c47da5/ [127.0.0.1:55976]
+2025-03-22 18:48:54,862 - DEBUG - Upgraded connection ['127.0.0.1', 55976] to WebSocket
+2025-03-22 18:48:54,865 - DEBUG - WebSocket ['127.0.0.1', 55976] open and established
+2025-03-22 18:48:54,866 - INFO - WebSocket CONNECT /ws/api/check/proccess/e8383324-ff06-46d1-9f78-068806c47da5/ [127.0.0.1:55976]
+2025-03-22 18:48:54,866 - DEBUG - WebSocket ['127.0.0.1', 55976] accepted by application
+2025-03-22 18:48:56,698 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 55976]
+2025-03-22 18:48:56,719 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 55976]
+2025-03-22 18:54:38,963 - INFO - C:\Users\Acer\Desktop\trucktracker\drf\core\utils\getCoordinates.py changed, reloading.
+2025-03-22 18:54:40,993 - INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2025-03-22 18:54:40,993 - INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2025-03-22 18:54:40,994 - INFO - Listening on TCP address 127.0.0.1:8000
+2025-03-22 18:54:46,094 - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-03-22 18:54:46,095 - DEBUG - 
+def generate_route_task(task_id, start_lat, start_lon, end_lat, end_lon, ccu):
+    return 1
+
+2025-03-22 18:54:46,095 - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-03-22 18:54:46,096 - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-03-22 18:54:46,097 - DEBUG - 
+def searchlocation(task_id, location):
+    return 1
+
+2025-03-22 18:54:46,098 - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-03-22 18:54:46,098 - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-03-22 18:54:46,098 - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-03-22 18:54:46,099 - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-03-22 18:54:46,099 - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-03-22 18:54:46,099 - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-03-22 18:55:02,223 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 64719]
+2025-03-22 18:55:02,239 - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-03-22 18:55:02,241 - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-03-22 18:55:02,241 - DEBUG - 
+def generate_route_task(task_id, start_lat, start_lon, end_lat, end_lon, ccu):
+    return 1
+
+2025-03-22 18:55:02,242 - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-03-22 18:55:02,243 - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-03-22 18:55:02,243 - DEBUG - 
+def searchlocation(task_id, location):
+    return 1
+
+2025-03-22 18:55:02,244 - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-03-22 18:55:02,244 - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-03-22 18:55:02,244 - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-03-22 18:55:02,245 - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-03-22 18:55:02,246 - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-03-22 18:55:02,339 - DEBUG - HTTP 200 response started for ['127.0.0.1', 64719]
+2025-03-22 18:55:02,340 - DEBUG - HTTP close for ['127.0.0.1', 64719]
+2025-03-22 18:55:02,340 - DEBUG - HTTP response complete for ['127.0.0.1', 64719]
+2025-03-22 18:55:02,341 - INFO - [mHTTP GET /api/trip/search/?q=Vladivostok&task_id=null 200 [0.12, 127.0.0.1:64719][0m
+2025-03-22 18:55:02,677 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/6544ee7a-9876-45e1-b265-8e982aa46848/ [127.0.0.1:64736]
+2025-03-22 18:55:02,678 - DEBUG - Upgraded connection ['127.0.0.1', 64736] to WebSocket
+2025-03-22 18:55:02,688 - DEBUG - WebSocket ['127.0.0.1', 64736] open and established
+2025-03-22 18:55:02,688 - INFO - WebSocket CONNECT /ws/api/check/proccess/6544ee7a-9876-45e1-b265-8e982aa46848/ [127.0.0.1:64736]
+2025-03-22 18:55:02,689 - DEBUG - WebSocket ['127.0.0.1', 64736] accepted by application
+2025-03-22 18:55:03,268 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 64736]
+2025-03-22 18:55:06,933 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 64719]
+2025-03-22 18:55:06,953 - DEBUG - HTTP 200 response started for ['127.0.0.1', 64719]
+2025-03-22 18:55:06,953 - DEBUG - HTTP close for ['127.0.0.1', 64719]
+2025-03-22 18:55:06,953 - DEBUG - HTTP response complete for ['127.0.0.1', 64719]
+2025-03-22 18:55:06,954 - INFO - [mHTTP GET /api/trip/search/?q=l&task_id=null 200 [0.02, 127.0.0.1:64719][0m
+2025-03-22 18:55:06,976 - DEBUG - WebSocket closed for ['127.0.0.1', 64736]
+2025-03-22 18:55:06,977 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/6544ee7a-9876-45e1-b265-8e982aa46848/ [127.0.0.1:64736]
+2025-03-22 18:55:07,294 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/0ce7eca4-70c7-4443-8781-9f94a6d2119c/ [127.0.0.1:64854]
+2025-03-22 18:55:07,294 - DEBUG - Upgraded connection ['127.0.0.1', 64854] to WebSocket
+2025-03-22 18:55:07,297 - DEBUG - WebSocket ['127.0.0.1', 64854] open and established
+2025-03-22 18:55:07,297 - INFO - WebSocket CONNECT /ws/api/check/proccess/0ce7eca4-70c7-4443-8781-9f94a6d2119c/ [127.0.0.1:64854]
+2025-03-22 18:55:07,297 - DEBUG - WebSocket ['127.0.0.1', 64854] accepted by application
+2025-03-22 18:55:07,495 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 64854]
+2025-03-22 18:55:08,563 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 64719]
+2025-03-22 18:55:08,596 - DEBUG - HTTP 200 response started for ['127.0.0.1', 64719]
+2025-03-22 18:55:08,596 - DEBUG - HTTP close for ['127.0.0.1', 64719]
+2025-03-22 18:55:08,597 - DEBUG - HTTP response complete for ['127.0.0.1', 64719]
+2025-03-22 18:55:08,597 - INFO - [mHTTP GET /api/trip/search/?q=london%20&task_id=null 200 [0.03, 127.0.0.1:64719][0m
+2025-03-22 18:55:08,628 - DEBUG - WebSocket closed for ['127.0.0.1', 64854]
+2025-03-22 18:55:08,629 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/0ce7eca4-70c7-4443-8781-9f94a6d2119c/ [127.0.0.1:64854]
+2025-03-22 18:55:08,946 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/340fc321-efc8-4ce2-9bfe-4950f516a750/ [127.0.0.1:64900]
+2025-03-22 18:55:08,947 - DEBUG - Upgraded connection ['127.0.0.1', 64900] to WebSocket
+2025-03-22 18:55:08,950 - DEBUG - WebSocket ['127.0.0.1', 64900] open and established
+2025-03-22 18:55:08,950 - INFO - WebSocket CONNECT /ws/api/check/proccess/340fc321-efc8-4ce2-9bfe-4950f516a750/ [127.0.0.1:64900]
+2025-03-22 18:55:08,950 - DEBUG - WebSocket ['127.0.0.1', 64900] accepted by application
+2025-03-22 18:55:09,161 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 64900]
+2025-03-22 18:55:15,071 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 64719]
+2025-03-22 18:55:15,094 - DEBUG - HTTP 200 response started for ['127.0.0.1', 64719]
+2025-03-22 18:55:15,094 - DEBUG - HTTP close for ['127.0.0.1', 64719]
+2025-03-22 18:55:15,094 - DEBUG - HTTP response complete for ['127.0.0.1', 64719]
+2025-03-22 18:55:15,095 - INFO - [mHTTP GET /api/trip/search/?q=london&task_id=null 200 [0.02, 127.0.0.1:64719][0m
+2025-03-22 18:55:15,125 - DEBUG - WebSocket closed for ['127.0.0.1', 64900]
+2025-03-22 18:55:15,125 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/340fc321-efc8-4ce2-9bfe-4950f516a750/ [127.0.0.1:64900]
+2025-03-22 18:55:15,435 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/f4abd9c3-2245-4127-87b4-cf32108888b0/ [127.0.0.1:65063]
+2025-03-22 18:55:15,436 - DEBUG - Upgraded connection ['127.0.0.1', 65063] to WebSocket
+2025-03-22 18:55:15,439 - DEBUG - WebSocket ['127.0.0.1', 65063] open and established
+2025-03-22 18:55:15,440 - INFO - WebSocket CONNECT /ws/api/check/proccess/f4abd9c3-2245-4127-87b4-cf32108888b0/ [127.0.0.1:65063]
+2025-03-22 18:55:15,440 - DEBUG - WebSocket ['127.0.0.1', 65063] accepted by application
+2025-03-22 18:55:15,510 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 65063]
+2025-03-22 18:55:19,812 - DEBUG - HTTP b'POST' request for ['127.0.0.1', 64719]
+2025-03-22 18:55:19,846 - DEBUG - HTTP 200 response started for ['127.0.0.1', 64719]
+2025-03-22 18:55:19,847 - DEBUG - HTTP close for ['127.0.0.1', 64719]
+2025-03-22 18:55:19,848 - DEBUG - HTTP response complete for ['127.0.0.1', 64719]
+2025-03-22 18:55:19,848 - INFO - [mHTTP POST /api/trip/create/ 200 [0.04, 127.0.0.1:64719][0m
+2025-03-22 18:55:19,897 - DEBUG - WebSocket closed for ['127.0.0.1', 65063]
+2025-03-22 18:55:19,897 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/f4abd9c3-2245-4127-87b4-cf32108888b0/ [127.0.0.1:65063]
+2025-03-22 18:55:20,213 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/d19092da-3f12-46f4-b937-ed309de0433b/ [127.0.0.1:65185]
+2025-03-22 18:55:20,214 - DEBUG - Upgraded connection ['127.0.0.1', 65185] to WebSocket
+2025-03-22 18:55:20,217 - DEBUG - WebSocket ['127.0.0.1', 65185] open and established
+2025-03-22 18:55:20,217 - INFO - WebSocket CONNECT /ws/api/check/proccess/d19092da-3f12-46f4-b937-ed309de0433b/ [127.0.0.1:65185]
+2025-03-22 18:55:20,218 - DEBUG - WebSocket ['127.0.0.1', 65185] accepted by application
+2025-03-22 18:55:21,818 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 65185]
+2025-03-22 18:55:21,840 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 65185]
+2025-03-22 18:55:22,453 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 65185]
+2025-03-22 18:55:22,571 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 65185]
+2025-03-22 18:55:22,577 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 65185]
+2025-03-22 18:55:22,624 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 65185]
+2025-03-22 18:55:22,937 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 65185]
+2025-03-22 18:55:24,036 - DEBUG - WebSocket closed for ['127.0.0.1', 65185]
+2025-03-22 18:55:24,037 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/d19092da-3f12-46f4-b937-ed309de0433b/ [127.0.0.1:65185]
+2025-03-22 19:00:14,009 - INFO - C:\Users\Acer\Desktop\trucktracker\drf\core\utils\getCoordinates.py changed, reloading.
+2025-03-22 19:00:15,788 - INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2025-03-22 19:00:15,789 - INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2025-03-22 19:00:15,789 - INFO - Listening on TCP address 127.0.0.1:8000
+2025-03-22 19:00:24,438 - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-03-22 19:00:24,439 - DEBUG - 
+def generate_route_task(task_id, start_lat, start_lon, end_lat, end_lon, ccu):
+    return 1
+
+2025-03-22 19:00:24,439 - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-03-22 19:00:24,440 - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-03-22 19:00:24,440 - DEBUG - 
+def searchlocation(task_id, location):
+    return 1
+
+2025-03-22 19:00:24,441 - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-03-22 19:00:24,441 - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-03-22 19:00:24,442 - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-03-22 19:00:24,442 - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-03-22 19:00:24,443 - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-03-22 19:00:24,443 - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-03-22 19:00:33,773 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 58195]
+2025-03-22 19:00:33,790 - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-03-22 19:00:33,792 - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-03-22 19:00:33,792 - DEBUG - 
+def generate_route_task(task_id, start_lat, start_lon, end_lat, end_lon, ccu):
+    return 1
+
+2025-03-22 19:00:33,793 - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-03-22 19:00:33,794 - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-03-22 19:00:33,794 - DEBUG - 
+def searchlocation(task_id, location):
+    return 1
+
+2025-03-22 19:00:33,795 - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-03-22 19:00:33,795 - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-03-22 19:00:33,796 - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-03-22 19:00:33,797 - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-03-22 19:00:33,797 - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-03-22 19:00:33,911 - DEBUG - HTTP 200 response started for ['127.0.0.1', 58195]
+2025-03-22 19:00:33,912 - DEBUG - HTTP close for ['127.0.0.1', 58195]
+2025-03-22 19:00:33,912 - DEBUG - HTTP response complete for ['127.0.0.1', 58195]
+2025-03-22 19:00:33,912 - INFO - [mHTTP GET /api/trip/search/?q=london&task_id=null 200 [0.14, 127.0.0.1:58195][0m
+2025-03-22 19:00:34,246 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/8baa1774-33df-4da6-bacd-9c93bfb920a2/ [127.0.0.1:58210]
+2025-03-22 19:00:34,247 - DEBUG - Upgraded connection ['127.0.0.1', 58210] to WebSocket
+2025-03-22 19:00:34,258 - DEBUG - WebSocket ['127.0.0.1', 58210] open and established
+2025-03-22 19:00:34,258 - INFO - WebSocket CONNECT /ws/api/check/proccess/8baa1774-33df-4da6-bacd-9c93bfb920a2/ [127.0.0.1:58210]
+2025-03-22 19:00:34,259 - DEBUG - WebSocket ['127.0.0.1', 58210] accepted by application
+2025-03-22 19:00:34,301 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58210]
+2025-03-22 19:00:37,193 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 58195]
+2025-03-22 19:00:37,213 - DEBUG - HTTP 200 response started for ['127.0.0.1', 58195]
+2025-03-22 19:00:37,213 - DEBUG - HTTP close for ['127.0.0.1', 58195]
+2025-03-22 19:00:37,214 - DEBUG - HTTP response complete for ['127.0.0.1', 58195]
+2025-03-22 19:00:37,214 - INFO - [mHTTP GET /api/trip/search/?q=o&task_id=null 200 [0.02, 127.0.0.1:58195][0m
+2025-03-22 19:00:37,241 - DEBUG - WebSocket closed for ['127.0.0.1', 58210]
+2025-03-22 19:00:37,241 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/8baa1774-33df-4da6-bacd-9c93bfb920a2/ [127.0.0.1:58210]
+2025-03-22 19:00:37,549 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/d4e8b967-0080-49ff-890a-577ffb4a9598/ [127.0.0.1:58299]
+2025-03-22 19:00:37,550 - DEBUG - Upgraded connection ['127.0.0.1', 58299] to WebSocket
+2025-03-22 19:00:37,553 - DEBUG - WebSocket ['127.0.0.1', 58299] open and established
+2025-03-22 19:00:37,554 - INFO - WebSocket CONNECT /ws/api/check/proccess/d4e8b967-0080-49ff-890a-577ffb4a9598/ [127.0.0.1:58299]
+2025-03-22 19:00:37,554 - DEBUG - WebSocket ['127.0.0.1', 58299] accepted by application
+2025-03-22 19:00:37,657 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58299]
+2025-03-22 19:00:38,876 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 58195]
+2025-03-22 19:00:38,897 - DEBUG - HTTP 200 response started for ['127.0.0.1', 58195]
+2025-03-22 19:00:38,897 - DEBUG - HTTP close for ['127.0.0.1', 58195]
+2025-03-22 19:00:38,897 - DEBUG - HTTP response complete for ['127.0.0.1', 58195]
+2025-03-22 19:00:38,897 - INFO - [mHTTP GET /api/trip/search/?q=london&task_id=null 200 [0.02, 127.0.0.1:58195][0m
+2025-03-22 19:00:38,921 - DEBUG - WebSocket closed for ['127.0.0.1', 58299]
+2025-03-22 19:00:38,922 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/d4e8b967-0080-49ff-890a-577ffb4a9598/ [127.0.0.1:58299]
+2025-03-22 19:00:39,233 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/12cd5092-1424-45bd-85df-8fdb70347847/ [127.0.0.1:58347]
+2025-03-22 19:00:39,234 - DEBUG - Upgraded connection ['127.0.0.1', 58347] to WebSocket
+2025-03-22 19:00:39,237 - DEBUG - WebSocket ['127.0.0.1', 58347] open and established
+2025-03-22 19:00:39,237 - INFO - WebSocket CONNECT /ws/api/check/proccess/12cd5092-1424-45bd-85df-8fdb70347847/ [127.0.0.1:58347]
+2025-03-22 19:00:39,237 - DEBUG - WebSocket ['127.0.0.1', 58347] accepted by application
+2025-03-22 19:00:39,457 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58347]
+2025-03-22 19:00:42,860 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 58195]
+2025-03-22 19:00:42,906 - DEBUG - HTTP 200 response started for ['127.0.0.1', 58195]
+2025-03-22 19:00:42,906 - DEBUG - HTTP close for ['127.0.0.1', 58195]
+2025-03-22 19:00:42,907 - DEBUG - HTTP response complete for ['127.0.0.1', 58195]
+2025-03-22 19:00:42,908 - INFO - [mHTTP GET /api/trip/search/?q=v&task_id=null 200 [0.05, 127.0.0.1:58195][0m
+2025-03-22 19:00:42,934 - DEBUG - WebSocket closed for ['127.0.0.1', 58347]
+2025-03-22 19:00:42,935 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/12cd5092-1424-45bd-85df-8fdb70347847/ [127.0.0.1:58347]
+2025-03-22 19:00:43,240 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/334cd5d0-b789-4540-a4a7-06a63a35bbf4/ [127.0.0.1:58447]
+2025-03-22 19:00:43,242 - DEBUG - Upgraded connection ['127.0.0.1', 58447] to WebSocket
+2025-03-22 19:00:43,245 - DEBUG - WebSocket ['127.0.0.1', 58447] open and established
+2025-03-22 19:00:43,245 - INFO - WebSocket CONNECT /ws/api/check/proccess/334cd5d0-b789-4540-a4a7-06a63a35bbf4/ [127.0.0.1:58447]
+2025-03-22 19:00:43,245 - DEBUG - WebSocket ['127.0.0.1', 58447] accepted by application
+2025-03-22 19:00:43,358 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58447]
+2025-03-22 19:00:44,001 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 58195]
+2025-03-22 19:00:44,021 - DEBUG - HTTP 200 response started for ['127.0.0.1', 58195]
+2025-03-22 19:00:44,021 - DEBUG - HTTP close for ['127.0.0.1', 58195]
+2025-03-22 19:00:44,021 - DEBUG - HTTP response complete for ['127.0.0.1', 58195]
+2025-03-22 19:00:44,022 - INFO - [mHTTP GET /api/trip/search/?q=vli&task_id=null 200 [0.02, 127.0.0.1:58195][0m
+2025-03-22 19:00:44,050 - DEBUG - WebSocket closed for ['127.0.0.1', 58447]
+2025-03-22 19:00:44,051 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/334cd5d0-b789-4540-a4a7-06a63a35bbf4/ [127.0.0.1:58447]
+2025-03-22 19:00:44,358 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/dc12085e-e62e-4fa9-8db3-d26062fd59ca/ [127.0.0.1:58483]
+2025-03-22 19:00:44,358 - DEBUG - Upgraded connection ['127.0.0.1', 58483] to WebSocket
+2025-03-22 19:00:44,362 - DEBUG - WebSocket ['127.0.0.1', 58483] open and established
+2025-03-22 19:00:44,362 - INFO - WebSocket CONNECT /ws/api/check/proccess/dc12085e-e62e-4fa9-8db3-d26062fd59ca/ [127.0.0.1:58483]
+2025-03-22 19:00:44,363 - DEBUG - WebSocket ['127.0.0.1', 58483] accepted by application
+2025-03-22 19:00:44,496 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58483]
+2025-03-22 19:00:52,027 - DEBUG - HTTP b'GET' request for ['127.0.0.1', 58195]
+2025-03-22 19:00:52,061 - DEBUG - HTTP 200 response started for ['127.0.0.1', 58195]
+2025-03-22 19:00:52,062 - DEBUG - HTTP close for ['127.0.0.1', 58195]
+2025-03-22 19:00:52,062 - DEBUG - HTTP response complete for ['127.0.0.1', 58195]
+2025-03-22 19:00:52,062 - INFO - [mHTTP GET /api/trip/search/?q=Vladivostok&task_id=null 200 [0.03, 127.0.0.1:58195][0m
+2025-03-22 19:00:52,089 - DEBUG - WebSocket closed for ['127.0.0.1', 58483]
+2025-03-22 19:00:52,090 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/dc12085e-e62e-4fa9-8db3-d26062fd59ca/ [127.0.0.1:58483]
+2025-03-22 19:00:52,395 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/a1ed3e14-9d09-4958-85d3-69aaf738ab41/ [127.0.0.1:58681]
+2025-03-22 19:00:52,395 - DEBUG - Upgraded connection ['127.0.0.1', 58681] to WebSocket
+2025-03-22 19:00:52,397 - DEBUG - WebSocket ['127.0.0.1', 58681] open and established
+2025-03-22 19:00:52,398 - INFO - WebSocket CONNECT /ws/api/check/proccess/a1ed3e14-9d09-4958-85d3-69aaf738ab41/ [127.0.0.1:58681]
+2025-03-22 19:00:52,398 - DEBUG - WebSocket ['127.0.0.1', 58681] accepted by application
+2025-03-22 19:00:52,465 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58681]
+2025-03-22 19:00:54,389 - DEBUG - HTTP b'POST' request for ['127.0.0.1', 58195]
+2025-03-22 19:00:54,421 - DEBUG - HTTP 200 response started for ['127.0.0.1', 58195]
+2025-03-22 19:00:54,421 - DEBUG - HTTP close for ['127.0.0.1', 58195]
+2025-03-22 19:00:54,422 - DEBUG - HTTP response complete for ['127.0.0.1', 58195]
+2025-03-22 19:00:54,422 - INFO - [mHTTP POST /api/trip/create/ 200 [0.03, 127.0.0.1:58195][0m
+2025-03-22 19:00:54,453 - DEBUG - WebSocket closed for ['127.0.0.1', 58681]
+2025-03-22 19:00:54,454 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/a1ed3e14-9d09-4958-85d3-69aaf738ab41/ [127.0.0.1:58681]
+2025-03-22 19:00:54,761 - INFO - WebSocket HANDSHAKING /ws/api/check/proccess/7578444c-f1ed-49d4-b108-ef8abb5a2719/ [127.0.0.1:58746]
+2025-03-22 19:00:54,762 - DEBUG - Upgraded connection ['127.0.0.1', 58746] to WebSocket
+2025-03-22 19:00:54,764 - DEBUG - WebSocket ['127.0.0.1', 58746] open and established
+2025-03-22 19:00:54,765 - INFO - WebSocket CONNECT /ws/api/check/proccess/7578444c-f1ed-49d4-b108-ef8abb5a2719/ [127.0.0.1:58746]
+2025-03-22 19:00:54,765 - DEBUG - WebSocket ['127.0.0.1', 58746] accepted by application
+2025-03-22 19:00:57,079 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58746]
+2025-03-22 19:00:57,098 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58746]
+2025-03-22 19:00:57,137 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58746]
+2025-03-22 19:00:57,239 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58746]
+2025-03-22 19:00:57,245 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58746]
+2025-03-22 19:00:57,301 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58746]
+2025-03-22 19:00:57,650 - DEBUG - Sent WebSocket packet to client for ['127.0.0.1', 58746]
+2025-03-22 19:00:59,379 - DEBUG - WebSocket closed for ['127.0.0.1', 58746]
+2025-03-22 19:00:59,380 - INFO - WebSocket DISCONNECT /ws/api/check/proccess/7578444c-f1ed-49d4-b108-ef8abb5a2719/ [127.0.0.1:58746]
+2025-03-22 19:01:55,825 - INFO - C:\Users\Acer\Desktop\trucktracker\drf\core\utils\getCoordinates.py changed, reloading.
+2025-03-22 19:01:57,551 - INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2025-03-22 19:01:57,552 - INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2025-03-22 19:01:57,553 - INFO - Listening on TCP address 127.0.0.1:8000
+2025-03-22 19:02:06,369 - INFO - C:\Users\Acer\Desktop\trucktracker\drf\core\utils\getCoordinates.py changed, reloading.
+2025-03-22 19:02:08,183 - INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2025-03-22 19:02:08,183 - INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2025-03-22 19:02:08,184 - INFO - Listening on TCP address 127.0.0.1:8000
+2025-03-22 19:02:27,382 - INFO - C:\Users\Acer\Desktop\trucktracker\drf\core\tasks.py changed, reloading.
