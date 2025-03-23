@@ -10,6 +10,8 @@ from uuid import uuid4
 from django.http import HttpResponse, Http404
 from django.conf import settings
 import os
+import threading
+import time
 
 class TripCreateView(generics.CreateAPIView):
     queryset = Trip.objects.all()
@@ -77,8 +79,18 @@ class DownloadPdfView(views.APIView):
                 response = HttpResponse(pdf_file.read(), content_type='application/pdf')
                 response['Content-Disposition'] = f'attachment; filename="{task_id}.pdf"'
                 return response
+            
+            # Delete the PDF file after a delay
+            threading.Thread(target=self.delete_file_after_delay, args=(pdf_file_path,), daemon=True).start()
         except IOError:
-            raise Http404("PDF dosyası okunamıyor.")
+            raise Http404("PDF file could not be read.")
+        
+    def delete_file_after_delay(self, file_path):
+        """ function that deletes the file after 20 minutes """  
+        time.sleep(20 * 60)  # wait for 20 minutes
+        if os.path.exists(file_path):
+            os.remove(file_path)
+            print(f"🚮 {file_path} deleted.")
     
 class PlaceSearchView(views.APIView):
     """
