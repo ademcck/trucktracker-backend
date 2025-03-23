@@ -6,10 +6,16 @@ from .base import *
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '.vercel.app',
+    'trucktrack.publicvm.com',
+    'www.trucktrack.publicvm.com',
     # 'yourdomain.com',
     # 'www.yourdomain.com',
 ]
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+
 
 # Database - PostgreSQL for production
 DATABASES = {
@@ -38,10 +44,10 @@ CHANNEL_LAYERS = {
 }
 
 # CORS SETTINGS for production
-CORS_ALLOW_ALL_ORIGINS = True # change False
+CORS_ALLOW_ALL_ORIGINS = False # change False
 CORS_ALLOWED_ORIGINS = [
-    "https://yourdomain.com",
-    "https://www.yourdomain.com",
+    "https://trucktrack.publicvm.com",
+    "https://www.trucktrack.publicvm.com",
 ]
 
 
