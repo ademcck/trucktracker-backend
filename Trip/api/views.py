@@ -7,6 +7,9 @@ from Trip.models import Trip
 from Trip.api.serializers import TripSerializer
 from core.tasks import generate_route_task, searchlocation
 from uuid import uuid4
+from django.http import FileResponse, Http404
+from django.conf import settings
+import os
 
 class TripCreateView(generics.CreateAPIView):
     queryset = Trip.objects.all()
@@ -57,6 +60,30 @@ class GenerateTaskView(views.APIView):
     def get(self, request):
         task_id = str(uuid4())
         return Response({"task_id": task_id})
+    
+
+class DownloadPdfView(views.APIView):
+    permission_classes = [AllowAny]
+
+    def get(self, request, task_id):
+        # Construct the full path to the PDF file
+        pdf_file_path = os.path.join(settings.MEDIA_ROOT, "pdf", f"{task_id}.pdf")
+
+        # Check if the file exists
+        if not os.path.exists(pdf_file_path):
+            raise Http404("PDF file not found.")
+
+        # Open the file in binary mode
+        try:
+            pdf_file = open(pdf_file_path, 'rb')
+        except IOError:
+            raise Http404("Unable to open the PDF file.")
+
+        # Return the file as a response
+        response = FileResponse(pdf_file)
+        response['Content-Disposition'] = f'attachment; filename="{task_id}.pdf"'
+        response['Content-Type'] = 'application/pdf'
+        return response
     
 class PlaceSearchView(views.APIView):
     """
