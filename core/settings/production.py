@@ -4,14 +4,8 @@ from .base import *
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+ALLOWED_HOSTS = ['trucktrack.publicvm.com', 'www.trucktrack.publicvm.com', "trucktrack-frontend.vercel.app", "www.trucktrack-frontend.vercel.app"]
 
-ALLOWED_HOSTS = [
-    
-    "trucktrack-frontend.vercel.app",
-    "www.trucktrack-frontend.vercel.app",
-    # 'yourdomain.com',
-    # 'www.yourdomain.com',
-]
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 SESSION_COOKIE_SECURE = True
