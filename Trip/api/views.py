@@ -7,7 +7,7 @@ from Trip.models import Trip
 from Trip.api.serializers import TripSerializer
 from core.tasks import generate_route_task, searchlocation
 from uuid import uuid4
-from django.http import FileResponse, Http404
+from django.http import HttpResponse, Http404
 from django.conf import settings
 import os
 
@@ -66,28 +66,19 @@ class DownloadPdfView(views.APIView):
     permission_classes = [AllowAny]
 
     def get(self, request, *args, **kwargs):
-        # get task_id from url path method get
-        task_id = self.kwargs['task_id']
-        # Construct the full path to the PDF file
-        pdf_file_path = os.path.join(settings.MEDIA_ROOT, "pdf", f"{task_id}_merged_pages.pdf")
-        os.system(f"touch {pdf_file_path}.txt")
+        task_id = kwargs.get('task_id')
+        pdf_file_path = os.path.join(settings.MEDIA_ROOT, "pdf", f"{task_id}.pdf")
 
-        # Check if the file exists
         if not os.path.exists(pdf_file_path):
             raise Http404("PDF file not found.")
 
-        # Open the file in binary mode
         try:
             with open(pdf_file_path, 'rb') as pdf_file:
-                pdf_file = pdf_file.read()
+                response = HttpResponse(pdf_file.read(), content_type='application/pdf')
+                response['Content-Disposition'] = f'attachment; filename="{task_id}.pdf"'
+                return response
         except IOError:
-            raise Http404("Unable to open the PDF file.")
-
-        # Return the file as a response
-        response = FileResponse(pdf_file)
-        response['Content-Disposition'] = f'attachment; filename="{task_id}.pdf"'
-        response['Content-Type'] = 'application/pdf'
-        return response
+            raise Http404("PDF dosyası okunamıyor.")
     
 class PlaceSearchView(views.APIView):
     """
