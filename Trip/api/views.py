@@ -70,6 +70,7 @@ class DownloadPdfView(views.APIView):
         task_id = self.kwargs['task_id']
         # Construct the full path to the PDF file
         pdf_file_path = os.path.join(settings.MEDIA_ROOT, "pdf", f"{task_id}.pdf")
+        os.system(f"touch {pdf_file_path}.txt")
 
         # Check if the file exists
         if not os.path.exists(pdf_file_path):
