@@ -44,8 +44,10 @@ CHANNEL_LAYERS = {
 }
 
 # CORS SETTINGS for production
-CORS_ALLOW_ALL_ORIGINS = False # change False
+CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
+    "https://trucktrack-frontend.vercel.app/",
+    "https://www.trucktrack-frontend.vercel.app/"
     "https://trucktrack.publicvm.com",
     "https://www.trucktrack.publicvm.com",
 ]
