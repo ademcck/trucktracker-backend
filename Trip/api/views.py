@@ -67,7 +67,7 @@ class DownloadPdfView(views.APIView):
 
     def get(self, request, *args, **kwargs):
         task_id = kwargs.get('task_id')
-        pdf_file_path = os.path.join(settings.MEDIA_ROOT, "pdf", f"{task_id}.pdf")
+        pdf_file_path = os.path.join(settings.MEDIA_ROOT, "pdf", f"{task_id}_merged_pages.pdf")
 
         if not os.path.exists(pdf_file_path):
             raise Http404("PDF file not found.")
