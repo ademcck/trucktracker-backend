@@ -10,7 +10,7 @@ from core.utils.convert_to_pdf import convert_svg_to_pdf
 import logging
 
 logger = logging.getLogger(__name__)
-headers = { 'User-Agent' : 'trucktrack/1.0 (adem.c1c3k@gmail.com)', }
+headers = { 'User-Agent' : 'trucktrack/1.0 (abc@gmail.com)', }
 
 def send_info_to_frontend(task_id, message, url=None):
     "Send info message to frontend"

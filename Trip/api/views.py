@@ -14,8 +14,8 @@ class TripCreateView(generics.CreateAPIView):
     permission_classes = [AllowAny]
 
     def create(self, request, *args, **kwargs):
-        # random uuid4
-        task_id = str(uuid4())  
+        # get task_id from frontend
+        task_id = request.data.get('task_id')
         # Serialize the request data
         if 'serializer' in request.data:
             serializer_data = request.data['serializer']
@@ -46,11 +46,18 @@ class TripCreateView(generics.CreateAPIView):
 
         return Response({
             "message": "Trip created successfully!",
-            "task_id": task_id,  
             "driver_log": "Calculating route...",
             "route_task_id": route_task.id
         })
 
+class GenerateTaskView(views.APIView):
+    permission_classes = [AllowAny]
+
+    # generate task_id
+    def get(self, request):
+        task_id = str(uuid4())
+        return Response({"task_id": task_id})
+    
 class PlaceSearchView(views.APIView):
     """
     get location with Google Places API 
