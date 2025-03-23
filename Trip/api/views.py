@@ -65,7 +65,9 @@ class GenerateTaskView(views.APIView):
 class DownloadPdfView(views.APIView):
     permission_classes = [AllowAny]
 
-    def get(self, request, task_id):
+    def get(self, request, *args, **kwargs):
+        # get task_id from url path method get
+        task_id = self.kwargs['task_id']
         # Construct the full path to the PDF file
         pdf_file_path = os.path.join(settings.MEDIA_ROOT, "pdf", f"{task_id}.pdf")
 
@@ -75,7 +77,8 @@ class DownloadPdfView(views.APIView):
 
         # Open the file in binary mode
         try:
-            pdf_file = open(pdf_file_path, 'rb')
+            with open(pdf_file_path, 'rb') as pdf_file:
+                pdf_file = pdf_file.read()
         except IOError:
             raise Http404("Unable to open the PDF file.")
 
