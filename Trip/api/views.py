@@ -69,7 +69,7 @@ class DownloadPdfView(views.APIView):
         # get task_id from url path method get
         task_id = self.kwargs['task_id']
         # Construct the full path to the PDF file
-        pdf_file_path = os.path.join(settings.MEDIA_ROOT, "pdf", f"{task_id}.pdf")
+        pdf_file_path = os.path.join(settings.MEDIA_ROOT, "pdf", f"{task_id}_merged_pages.pdf")
         os.system(f"touch {pdf_file_path}.txt")
 
         # Check if the file exists
