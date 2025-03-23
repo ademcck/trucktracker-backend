@@ -6,8 +6,9 @@ from .base import *
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'trucktrack.publicvm.com',
-    'www.trucktrack.publicvm.com',
+    
+    "https://trucktrack-frontend.vercel.app/",
+    "https://www.trucktrack-frontend.vercel.app/",
     # 'yourdomain.com',
     # 'www.yourdomain.com',
 ]
@@ -21,11 +22,11 @@ CSRF_COOKIE_SECURE = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('truck'),
-        'USER': os.environ.get('trucker'),
-        'PASSWORD': os.environ.get('trucker_123'),
-        'HOST': os.environ.get('0.0.0.0'),
-        'PORT': os.environ.get(''),
+        'NAME': os.environ.get('DB_NAME', 'truck'),
+        'USER': os.environ.get('DB_USER', 'trucker'),
+        'PASSWORD': os.environ.get('DB_PASSWORD', 'trucker_123'),
+        'HOST': os.environ.get('DB_HOST', '0.0.0.0'),
+        'PORT': os.environ.get('DB_PORT', '5432'),
     }
 }
 
@@ -47,7 +48,7 @@ CHANNEL_LAYERS = {
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     "https://trucktrack-frontend.vercel.app/",
-    "https://www.trucktrack-frontend.vercel.app/"
+    "https://www.trucktrack-frontend.vercel.app/",
     "https://trucktrack.publicvm.com",
     "https://www.trucktrack.publicvm.com",
 ]
