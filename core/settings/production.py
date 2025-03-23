@@ -7,8 +7,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     
-    "https://trucktrack-frontend.vercel.app/",
-    "https://www.trucktrack-frontend.vercel.app/",
+    "trucktrack-frontend.vercel.app",
+    "www.trucktrack-frontend.vercel.app",
     # 'yourdomain.com',
     # 'www.yourdomain.com',
 ]
